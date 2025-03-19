@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, mean_absolute_percentage_error
 # Load dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("/mnt/data/Cleaned_dataset.csv", parse_dates=["ds"])
+    df = pd.read_csv("D:/360DigitMG Project/Project 2 Power forecasting/Dataset/Cleaned_dataset.csv", parse_dates=["ds"])
     return df
 
 df = load_data()
